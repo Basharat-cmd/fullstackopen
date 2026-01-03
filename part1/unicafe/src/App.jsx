@@ -2,6 +2,10 @@ import { useState } from 'react'
 
 
 const Statistics = (props) => {
+  if (props.total === 0) {
+    return <p>No feedback given</p>
+  }
+
   return (
     <div>
       <h1>statistics</h1>
@@ -15,6 +19,7 @@ const Statistics = (props) => {
     </div>
   )
 }
+
 
 const App = () => {
   const [good, setGood] = useState(0)
