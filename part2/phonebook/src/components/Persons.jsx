@@ -1,14 +1,13 @@
 const Persons = ({ persons, deletePerson }) => (
   <div>
     {persons.map(person =>
-      <p key={person.id}>
+      <div key={person.id} className="person">
         {person.name} {person.number}
         <button onClick={() => deletePerson(person.id, person.name)}>
           delete
         </button>
-      </p>
+      </div>
     )}
   </div>
 )
-
 export default Persons

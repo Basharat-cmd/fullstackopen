@@ -1,0 +1,35 @@
+input {
+  margin: 4px 8px 8px 0;
+  padding: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-left: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.person {
+  margin: 6px 0;
+  padding: 6px 8px;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.person button {
+  margin-left: 12px;
+  background-color: #dc3545;
+}
+
+.person button:hover {
+  background-color: #b52a37;
+}
